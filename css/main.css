@@ -16,6 +16,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Roboto Slab', serif;
 }
 
 *, *::before, *::after {
@@ -24,4 +25,19 @@ html {
 
 body {
   margin: 0;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  padding: 1em;
+  border-radius: 5px;
+  bottom: 2em;
+  left: 1em;
+  color: white;
+  background-color: rgba(0,0,0,.6)
 }
