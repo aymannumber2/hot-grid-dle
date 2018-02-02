@@ -7,7 +7,6 @@
 .img-flex {
   display: block;
   width: 100%;
-  max-width: 15em;
 }
 
 html {
@@ -40,4 +39,5 @@ figcaption {
   left: .5rem;
   color: white;
   background-color: rgba(0, 0, 0, .6);
+  max-width: 15em;
 }
