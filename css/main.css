@@ -11,12 +11,11 @@
 
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -39,5 +38,5 @@ figcaption {
   bottom: 2em;
   left: 1em;
   color: white;
-  background-color: rgba(0,0,0,.6)
+  background-color: rgba(0, 0, 0, .6);
 }
