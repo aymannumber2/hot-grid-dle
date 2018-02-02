@@ -7,6 +7,7 @@
 .img-flex {
   display: block;
   width: 100%;
+  max-width: 15em;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Roboto Slab", serif;
+  font: normal 100%/1.3 "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -35,8 +36,8 @@ figcaption {
   position: absolute;
   padding: 1em;
   border-radius: 5px;
-  bottom: 2em;
-  left: 1em;
+  bottom: 1rem;
+  left: .5rem;
   color: white;
   background-color: rgba(0, 0, 0, .6);
 }
